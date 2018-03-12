@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Meals" max_length="40" name="x_8964_pizzanow_meals" type="collection">
+        <element display="true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Price" mandatory="true" max_length="20" name="price" type="price"/>
+    </element>
+</database>

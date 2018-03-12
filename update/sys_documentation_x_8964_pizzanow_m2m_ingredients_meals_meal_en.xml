@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="meal" label="Meals" language="en" table="x_8964_pizzanow_m2m_ingredients_meals">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>meal</element>
+            <help/>
+            <hint/>
+            <label>Meals</label>
+            <language>en</language>
+            <name>x_8964_pizzanow_m2m_ingredients_meals</name>
+            <plural>Meals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-07 13:09:17</sys_created_on>
+            <sys_id>923d6d40dbb013009c19f08c0c9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Meals</sys_name>
+            <sys_package display_value="PizzaNow" source="x_8964_pizzanow">16f8ed84db3013009c19f08c0c9619b0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PizzaNow">16f8ed84db3013009c19f08c0c9619b0</sys_scope>
+            <sys_update_name>sys_documentation_x_8964_pizzanow_m2m_ingredients_meals_meal_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-07 13:09:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_8964_pizzanow.PizzaNowCalc</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>PizzaNowCalc</name>
+        <script><![CDATA[var PizzaNowCalc = Class.create();
+PizzaNowCalc.prototype = {
+    initialize: function() {
+    },
+
+    type: 'PizzaNowCalc'
+};
+
+PizzaNowCalc.calculateTotal = function(mealsIDs) {
+	var orderMeals = mealsIDs.split(',');
+	var totalAmount = 0;
+	for (var m=0; m < orderMeals.length; m++) {
+		var mealGR = new GlideRecord('x_8964_pizzanow_meals');
+		if (mealGR.get(orderMeals[m])) {
+			totalAmount += mealGR.getValue('price');
+		}
+	}
+	
+	return totalAmount;
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-07 13:45:29</sys_created_on>
+        <sys_id>7e743108dbb013009c19f08c0c961941</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>PizzaNowCalc</sys_name>
+        <sys_package display_value="PizzaNow" source="x_8964_pizzanow">16f8ed84db3013009c19f08c0c9619b0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="PizzaNow">16f8ed84db3013009c19f08c0c9619b0</sys_scope>
+        <sys_update_name>sys_script_include_7e743108dbb013009c19f08c0c961941</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-07 14:16:22</sys_updated_on>
+    </sys_script_include>
+</record_update>

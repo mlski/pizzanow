@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Orders" max_length="40" name="x_8964_pizzanow_orders" type="collection">
+        <element label="Customer" max_length="32" name="customer" reference="x_8964_pizzanow_customers" type="reference"/>
+        <element choice="1" label="Delivery type" mandatory="true" max_length="40" name="delivery_type" type="choice">
+            <choice>
+                <element label="Collection" sequence="0" value="Collection"/>
+                <element label="Eat in" sequence="1" value="Eat in"/>
+                <element label="Delivery" sequence="2" value="Delivery"/>
+            </choice>
+        </element>
+        <element label="Meals" mandatory="true" max_length="4000" name="meals" reference="x_8964_pizzanow_meals" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Total amount" mandatory="true" max_length="20" name="total_amount" type="price"/>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_8964_pizzanow_menus</from_table>
+        <m2m_from_field>menu</m2m_from_field>
+        <m2m_from_label>Meal</m2m_from_label>
+        <m2m_table>x_8964_pizzanow_m2m_meals_menus</m2m_table>
+        <m2m_to_field>meal</m2m_to_field>
+        <m2m_to_label>Menu</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-07 13:07:47</sys_created_on>
+        <sys_id>03bc2940dbb013009c19f08c0c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_8964_pizzanow_m2m_meals_menus</sys_name>
+        <sys_package display_value="PizzaNow" source="x_8964_pizzanow">16f8ed84db3013009c19f08c0c9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PizzaNow">16f8ed84db3013009c19f08c0c9619b0</sys_scope>
+        <sys_update_name>sys_m2m_03bc2940dbb013009c19f08c0c96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-07 13:07:47</sys_updated_on>
+        <to_table>x_8964_pizzanow_meals</to_table>
+    </sys_m2m>
+</record_update>

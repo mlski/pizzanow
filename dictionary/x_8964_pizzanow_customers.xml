@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Customers" max_length="40" name="x_8964_pizzanow_customers" type="collection">
+        <element label="Address" max_length="1000" name="address" type="string"/>
+        <element label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element label="Is Company?" max_length="40" name="is_company" type="boolean"/>
+        <element label="Last Name" mandatory="true" max_length="80" name="last_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return current.first_name + ' ' + current.last_name;  // return the calculated value&#10;&#10;})(current);" display="true" label="Name" max_length="120" name="name" read_only="true" type="string" virtual="true"/>
+        <element label="Notes" max_length="2000" name="notes" type="string_full_utf8"/>
+        <element label="Phone" mandatory="true" max_length="40" name="phone" type="string"/>
+        <element label="Returning Customer" max_length="40" name="returning_customer" type="boolean"/>
+    </element>
+</database>

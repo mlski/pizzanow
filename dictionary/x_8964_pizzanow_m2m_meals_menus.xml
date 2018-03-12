@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Pizzanow M2m Meals Menus" max_length="40" name="x_8964_pizzanow_m2m_meals_menus" type="collection">
+        <element label="Meals" mandatory="true" max_length="32" name="meal" reference="x_8964_pizzanow_meals" type="reference"/>
+        <element label="Menus" mandatory="true" max_length="32" name="menu" reference="x_8964_pizzanow_menus" type="reference"/>
+        <index name="index">
+            <element name="meal"/>
+        </index>
+        <index name="index2">
+            <element name="menu"/>
+        </index>
+    </element>
+</database>
