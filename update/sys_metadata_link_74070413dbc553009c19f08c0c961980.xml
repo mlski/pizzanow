@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6ff231c4dbb013009c19f08c0c961946</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_8964_pizzanow_m2m_meals_menus">
+    <x_8964_pizzanow_m2m_meals_menus action="INSERT_OR_UPDATE">
+        <meal display_value="Havana">a652b984dbb013009c19f08c0c96190d</meal>
+        <menu display_value="Classic menu">69d1b584dbb013009c19f08c0c96191b</menu>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-07 13:34:30</sys_created_on>
+        <sys_id>6ff231c4dbb013009c19f08c0c961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-07 13:34:30</sys_updated_on>
+    </x_8964_pizzanow_m2m_meals_menus>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-29 18:18:40</sys_created_on>
+        <sys_id>74070413dbc553009c19f08c0c961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2018-03-07 05:34:30</sys_name>
+        <sys_package display_value="PizzaNow" source="x_8964_pizzanow">16f8ed84db3013009c19f08c0c9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PizzaNow">16f8ed84db3013009c19f08c0c9619b0</sys_scope>
+        <sys_update_name>sys_metadata_link_74070413dbc553009c19f08c0c961980</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-29 18:18:40</sys_updated_on>
+        <tablename>x_8964_pizzanow_m2m_meals_menus</tablename>
+    </sys_metadata_link>
+</record_update>

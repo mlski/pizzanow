@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>a652b984dbb013009c19f08c0c96190d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_8964_pizzanow_meals">
+    <x_8964_pizzanow_meals action="INSERT_OR_UPDATE">
+        <name>Havana</name>
+        <price>13</price>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-07 13:31:50</sys_created_on>
+        <sys_id>a652b984dbb013009c19f08c0c96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-07 13:31:50</sys_updated_on>
+    </x_8964_pizzanow_meals>
+    <fx_price action="delete_multiple" query="id=a652b984dbb013009c19f08c0c96190d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>13</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>a652b984dbb013009c19f08c0c96190d</id>
+        <parent/>
+        <reference_amount>13</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-12 09:29:57</sys_created_on>
+        <sys_id>8afa2a61db3493009c19f08c0c961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-12 09:29:57</sys_updated_on>
+        <table>x_8964_pizzanow_meals</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-29 18:18:14</sys_created_on>
+        <sys_id>2ae64813dbc553009c19f08c0c96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Havana</sys_name>
+        <sys_package display_value="PizzaNow" source="x_8964_pizzanow">16f8ed84db3013009c19f08c0c9619b0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PizzaNow">16f8ed84db3013009c19f08c0c9619b0</sys_scope>
+        <sys_update_name>sys_metadata_link_2ae64813dbc553009c19f08c0c96196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-29 18:18:14</sys_updated_on>
+        <tablename>x_8964_pizzanow_meals</tablename>
+    </sys_metadata_link>
+</record_update>
